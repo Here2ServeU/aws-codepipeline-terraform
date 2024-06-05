@@ -1,4 +1,4 @@
-# AWS Auto Scaling and SNS Provisioning with Terraform
+# AWS CodePipeline Provisioning with Terraform
 
 This repository contains Terraform configurations for provisioning Auto Scaling groups and SNS topics on AWS.
 
@@ -13,25 +13,26 @@ This repository contains Terraform configurations for provisioning Auto Scaling 
 1. **Clone the repository**
 
    -> git clone https://github.com/Messites/aws-codepipeline-terraform.git
-   -> cd aws-autoscaling-sns-terraform
+   
+   -> cd aws-codepipeline-terraform
 
-2. **Initialize Terraform**
-
-    -> terraform init
-
-3. **Review and modify variables**
+3. **Initialize Terraform**
 
     -> terraform init
 
-4. **Plan the Deployment**
+4. **Review and modify variables**
+
+    -> terraform init
+
+5. **Plan the Deployment**
 
     -> terraform plan
 
-5. **Apply the Deployment**
+6. **Apply the Deployment**
 
     -> terraform apply
 
-6. **Clean up whenever necessary**
+7. **Clean up whenever necessary**
 
     -> terraform destroy
 
